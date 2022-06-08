@@ -12,5 +12,9 @@ Malaysia which helps clients in organizing and joining events. Considering the i
 demand for their services, AEMS has decided to enhance their services
 by developing an interface to manage their business processes.
 
-The SOFS  requires  you  to  develop  Python  program  for  AEMS  which  will
-have two types  of  users (Admin and Customer).
+The SOFS requires you to develop Python program for AEMS which will
+have two types of users (Admin and Customer).
+
+# Contributor:
+
+Achreen Kaur: [https://github.com/achreen]
