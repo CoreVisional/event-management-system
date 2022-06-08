@@ -15,6 +15,6 @@ by developing an interface to manage their business processes.
 The SOFS requires you to develop Python program for AEMS which will
 have two types of users (Admin and Customer).
 
-# Contributor:
+## Contributor:
 
 Achreen Kaur: [https://github.com/achreen]
