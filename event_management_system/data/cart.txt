@@ -1,0 +1,11 @@
+ticket_id;event_name;event_code;username;attendee_name;price;quantity;total_price
+4110;Virtual Cooking Class: Lemon Meringue Pie;EV002;smith_ryan;Ryan Smith;5;1;5.00
+3799;Harry Potter Ultimate Trivia;EV004;smith_ryan;Ryan Smith;8;1;8.00
+8224;Cardio Boost Workshop;EV003;michelley;Michelle Yeoh;35;1;35.00
+0961;Let's Get Down to Business: The Entrepreneurs Forum;EV001;michelley;Michelle Yeoh;20;1;20.00
+1648;Let's Get Down to Business: The Entrepreneurs Forum;EV001;roberteh;Robert Teh;20;1;20.00
+0434;Virtual Cooking Class: Lemon Meringue Pie;EV002;roberteh;Robert Teh;5;1;5.00
+3893;Science Week Convention;EV005;kamal_hussain;Kamal Hussain;22;1;22.00
+5964;Harry Potter Ultimate Trivia;EV004;kamal_hussain;Kamal Hussain;8;2;16.00
+6665;Science Week Convention;EV005;evanrichards;Evan Richards;22;1;22.00
+9775;Let's Get Down to Business: The Entrepreneurs Forum;EV001;evanrichards;Evan Richards;20;2;40.00

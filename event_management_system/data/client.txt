@@ -1,0 +1,6 @@
+customer_id;username;password;name;age;gender;birthdate;nationality;contact_number;email_address
+1;smith_ryan;@Marshall8;Ryan Smith;39;male;1983-01-21;Australian;011-10283762;smithryan@gmail.com
+2;michelley;F1ona&seal;Michelle Yeoh;42;female;1980-10-27;Malaysian;016-28360974;michelleclyeoh@yahoo.com
+3;roberteh;!walruS9sus;Robert Teh;29;male;1993-09-05;Malaysian;012-28763690;robertlyteh@gmail.com
+4;kamal_hussain;astr0boy9*Z;Kamal Hussain;35;male;1987-12-24;Indian;016-28263903;kamalbinhussain@gmail.com
+5;evanrichards;Damn4@wow;Evan Richards;32;male;1989-08-01;Malaysian;011-38873281;evanrichards@outlook.com

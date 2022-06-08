@@ -1,0 +1,8 @@
+transaction_id;username;bank_name;bank_reference_number;transaction_entry_date;transaction_entry_time;payment_mode;card_type;transaction_amount;transaction_status
+16249316;smith_ryan;Maybank;1625591625;2022-06-03;21:45;Debit Card;VISA;5.00;SUCCESSFUL
+27671227;smith_ryan;Maybank;2767602767;2022-06-03;21:45;Debit Card;VISA;8.00;SUCCESSFUL
+44219444;michelley;Public Bank;4422814422;2022-06-03;21:45;Debit Card;VISA;35.00;SUCCESSFUL
+58974658;roberteh;CIMB;5897965897;2022-06-03;21:47;Debit Card;VISA;20.00;SUCCESSFUL
+63554263;roberteh;CIMB;6355906355;2022-06-03;21:47;Debit Card;VISA;20.00;SUCCESSFUL
+38176038;kamal_hussain;Hong Leong Bank;3818503818;2022-06-03;21:48;eWallet;MASTERCARD;22.00;SUCCESSFUL
+07669007;evanrichards;Bank of America;0767530767;2022-06-03;21:48;Credit Card;VISA;22.00;SUCCESSFUL

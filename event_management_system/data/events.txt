@@ -1,0 +1,6 @@
+event_id;event_name;event_category;event_code;event_price;organizer;start_date;start_time;end_date;end_time;venue;total_seats_available;event_status
+1;Let's Get Down to Business: The Entrepreneurs Forum;Business and Professional;EV001;20;Rachel Tan;2022-08-17;10:00;2022-08-17;15:00;Grand Hyatt Kuala Lumpur;220;Active
+2;Virtual Cooking Class: Lemon Meringue Pie;Food and Drink;EV002;5;Homemade: Free Cooking Classes;2022-07-26;11:00;2022-07-27;17:00;Online (Zoom);60;Active
+3;Cardio Boost Workshop;Sports and Fitness;EV003;35;Josephine Gill;2022-09-05;14:00;2022-09-05;17:30;Bukit Jalil National Stadium;50;Active
+4;Harry Potter Ultimate Trivia;Film, Media, and Entertainment;EV004;8;Toby and Bailey Stone on behalf of the Yeah, We're Idiots Podcast & Co.;2022-07-31;9:30;2022-07-31;10:30;Online (Zoom);60;Active
+5;Science Week Convention;Science and Technology;EV005;22;Steve Payne;2022-06-12;11:30;2022-06-16;16:00;Kuala Lumpur Convention Centre;25;Active
