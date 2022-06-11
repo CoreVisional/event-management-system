@@ -364,8 +364,8 @@ def display_ticket_summary(username: str, event_code: str) -> None:
                     data[-4], "%Y-%m-%d", "%A, %b %d, %Y"
                 )
                 formatted_time = ems.format_datetime(
-                    data[-3], "%H:%M", "%-H:%M %p"
-                )  # Format the time (replace dash with hashtag on Windows)
+                    data[-3], "%H:%M", "%#H:%M %p"
+                )  # Format the time (replace hastag with dash on Linux)
                 print(f"\n\033[1mTicket ID:\033[0m {data[0]}")
                 print(f"\033[1mEvent Name:\033[0m {data[1]}")
                 print(f"\033[1mEvent Code:\033[0m {data[2]}")

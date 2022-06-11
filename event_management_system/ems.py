@@ -71,10 +71,10 @@ def ask_user_yes_no(yes_no_question: str) -> bool:
 
         if user_choice in choice_yes:
             return True
-        elif user_choice in choice_no:
+
+        if user_choice in choice_no:
             return False
-        else:
-            print("\nInvalid Input. Try again.\n")
+        print("\nInvalid Input. Try again.\n")
 
 
 def validate_name_input(prompt: str) -> str:
@@ -166,7 +166,7 @@ def validate_date_format(date_prompt: str, length: int, date_format: str) -> str
                     datetime.strptime(user_input, date_format).date()
                 )  # Convert user input date format into a specified date format
                 return user_input
-            elif not user_input:
+            if not user_input:
                 print("\nField must not be blank.\n")
             else:
                 print("\nInvalid date format.\n")
@@ -289,7 +289,7 @@ def authenticate_login_credentials(filename: str) -> bool:
                 ):  # Check if the username or password is empty
                     print("\n**Username or Password field must not be blank.**")
                     break
-                elif username == login_info[0] and password == login_info[1]:
+                if username == login_info[0] and password == login_info[1]:
                     print("\nLOGIN SUCCESSFUL!\n")
                     return login_info
             else:
@@ -317,8 +317,7 @@ def create_menu(choices: list[str], prompt: str = "\nChoose an option: ") -> int
 
         if 0 < choice <= len(choices):
             return choice
-        else:
-            print("\n** Please enter a number within the listed options. **\n")
+        print("\n** Please enter a number within the listed options. **\n")
 
 
 def create_header(filename: str, column_name: list[str]) -> None:
@@ -654,8 +653,8 @@ def get_event_summary() -> list:
                     data[5], "%Y-%m-%d", "%A, %b %d, %Y"
                 )  # Format the date
                 formatted_time = format_datetime(
-                    data[6], "%H:%M", "%-H:%M %p"
-                )  # Format the time (replace dash with hashtag on Windows)
+                    data[6], "%H:%M", "%#H:%M %p"
+                )  # Format the time (replace hastag with dash on Linux)
                 print(f"\n\n\033[1mEvent Name:\033[0m {data[0]}")
                 print(f"\033[1mEvent Category:\033[0m {data[1]}")
                 print(f"\033[1mOrganizer:\033[0m {data[4]}")
