@@ -3,10 +3,10 @@
 # ALEX CHIEW (TP056952)
 # ACHREEN KAUR (TP063334)
 
+from datetime import datetime
 import admin
 import client
 import sys
-from datetime import datetime
 
 
 def display_main_menu() -> list:

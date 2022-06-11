@@ -3,8 +3,8 @@
 # Alex Chiew (TP056952)
 # Achreen Kaur (TP063334)
 
-import ems
 from datetime import datetime
+import ems
 
 
 def display_customer_main_menu() -> list:
