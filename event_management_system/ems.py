@@ -602,8 +602,7 @@ def find_record(filename: str, data: str, value_index: int) -> list:
         for record in data_list:
             if data == record[value_index]:
                 return record
-        else:
-            print("\n\n --- No Such Record Found. ---\n")
+        print("\n\n --- No Such Record Found. ---\n")
 
 
 def find_customer_record_by_username(username: str) -> list:
